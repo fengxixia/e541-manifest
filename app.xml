@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <manifest>
+
+  <remote name="hsae" fetch="../../.." review="https://192.168.64.47:8443" />
+  <default revision="base" remote="hsae" sync-j="4" />
+
+  <project name="hsae/bmc_platform/yocto/hsae_source/Common" path="yocto/hsae_source/Common" />
+  <project name="hsae/bmc_platform/yocto/hsae_source/Camera" path="yocto/hsae_source/Camera" />
+  <project name="hsae/bmc_platform/yocto/hsae_source/Network" path="yocto/hsae_source/Network" />
+  <project name="hsae/bmc_platform/yocto/hsae_source/Diag" path="yocto/hsae_source/Diag" />
+  <project name="hsae/bmc_platform/yocto/hsae_source/Log" path="yocto/hsae_source/Log" />
+  <project name="hsae/bmc_platform/yocto/hsae_source/OTA" path="yocto/hsae_source/OTA" />
+  <project name="hsae/bmc_platform/yocto/hsae_source/Power" path="yocto/hsae_source/Power" />
+  <project name="hsae/bmc_platform/yocto/hsae_source/IPC" path="yocto/hsae_source/IPC" />
+  <project name="hsae/bmc_platform/yocto/hsae_source/AD_Transfer" path="yocto/hsae_source/AD_Transfer" />
+  <project name="hsae/bmc_platform/yocto/hsae_source/DoIP" path="yocto/hsae_source/DoIP" />
+  <project name="hsae/bmc_platform/yocto/hsae_source/hsbmcctl" path="yocto/hsae_source/hsbmcctl" />
+  </manifest>
