@@ -2,8 +2,15 @@
   <manifest>
 
   <remote name="hsae" fetch="ssh://tanqi@192.168.64.47:29418" review="https://192.168.64.47:8443" />
-  <default revision="base" remote="hsae" sync-j="4" />
+  <default revision="E541" remote="hsae" sync-j="4" />
 
-  <project name="Linux/s32g3/Common" path="components/Common" />
-  <project name="Linux/s32g3/ConfMMap" path="components/ConfMMap" />
+  <remote name="github" fetch="https://github.com/fengxixia"/>
+  <default revision="main" remote="github" sync-j="4" />
+
+  <project name="Linux/s32g3/Common" path="components/Common" remote="hsae" />
+  <project name="Linux/s32g3/ConfMMap" path="components/ConfMMap" remote="hsae"/>
+  <project name="e541_build-system" path="build-system" remote="github"/>
+
+
+
   </manifest>
