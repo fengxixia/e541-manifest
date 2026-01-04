@@ -7,6 +7,8 @@
 
   <project name="Linux/s32g3/Common" path="components/Common" remote="hsae" />
   <project name="Linux/s32g3/ConfMMap" path="components/ConfMMap" remote="hsae"/>
+  <project name="Linux/s32g3/OTA" path="components/OTA" remote="hsae"/>
+
   <project name="e541_build-system" path="build-system" remote="github" revision="main"/>
 
   </manifest>
