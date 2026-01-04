@@ -2,7 +2,7 @@
   <manifest>
 
   <remote name="hsae" fetch="ssh://tanqi@192.168.64.47:29418" review="https://192.168.64.47:8443" />
-  <remote name="github" fetch="https://github.com/fengxixia"/>
+  <remote name="github" fetch="ssh://github.com/fengxixia"/>
   <default revision="E541" remote="hsae" sync-j="4" />
 
   <project name="Linux/s32g3/Common" path="components/Common" remote="hsae" />
