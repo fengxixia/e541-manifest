@@ -10,5 +10,6 @@
   <project name="Linux/s32g3/OTA" path="components/OTA" remote="hsae"/>
 
   <project name="e541_build-system" path="build-system" remote="github" revision="main"/>
+  <project name="e541_third-party" path="third-party" remote="github" revision="main"/>
 
   </manifest>
